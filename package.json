@@ -1,11 +1,12 @@
 {
   "name": "api-server-solution",
   "version": "1.0.0",
-  "description": "",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) LAB =================================================",
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
-    "test-watch": "jest --watchAll --verbose"
+    "test-watch": "jest --watchAll --verbose",
+    "start": "node index.js"
   },
   "jest": {
     "testEnvironment": "node"
@@ -24,5 +25,13 @@
     "morgan": "^1.9.1",
     "supertest": "^3.3.0",
     "uuid": "^3.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beccalee123/14-orm-and-modeling.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beccalee123/14-orm-and-modeling/issues"
+  },
+  "homepage": "https://github.com/beccalee123/14-orm-and-modeling#readme"
 }

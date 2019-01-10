@@ -1,13 +1,15 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## API Server
 
-### Author: Student/Group Name
+### Author: Becca Lee
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
+
+![Build Status](https://www.travis-ci.com/beccalee123/14-orm-and-modeling.svg?branch=master)
+* [repo](https://github.com/beccalee123/14-orm-and-modeling)
+* [travis](https://www.travis-ci.com/beccalee123/14-orm-and-modeling)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
 
