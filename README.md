@@ -6,8 +6,10 @@
 ### Author: Becca Lee
 
 ### Links and Resources
+
+![Build Status](https://www.travis-ci.com/beccalee123/14-orm-and-modeling.svg?branch=master)
 * [repo](https://github.com/beccalee123/14-orm-and-modeling)
-* [travis](http://xyz.com)
+* [travis](https://www.travis-ci.com/beccalee123/14-orm-and-modeling)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
 
