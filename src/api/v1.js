@@ -15,6 +15,13 @@ router.put('/api/v1/:model/:id', handlePut);
 router.delete('/api/v1/:model/:id', handleDelete);
 
 // FUNCTIONS
+/**
+ *
+ *
+ * @param {*} request
+ * @param {*} response
+ * @param {*} next
+ */
 function handleGetAll(request,response,next) {
   request.model.get()
     .then( data => {
@@ -27,6 +34,13 @@ function handleGetAll(request,response,next) {
     .catch( next );
 }
 
+/**
+ *
+ *
+ * @param {*} request
+ * @param {*} res
+ * @param {*} next
+ */
 function handleGetOne(request,res,next) {
   let id = request.params.id;
   request.model.get(id)
@@ -34,6 +48,13 @@ function handleGetOne(request,res,next) {
     .catch( next );
 }
 
+/**
+ *
+ *
+ * @param {*} request
+ * @param {*} response
+ * @param {*} next
+ */
 function handlePost(request,response,next) {
   request.model.post(request.body)
     .then( result => response.status(200).json(result) )
@@ -41,12 +62,26 @@ function handlePost(request,response,next) {
 }
 
 
+/**
+ *
+ *
+ * @param {*} request
+ * @param {*} response
+ * @param {*} next
+ */
 function handlePut(request,response,next) {
   request.model.put(request.params.id, request.body)
     .then( result => response.status(200).json(result) )
     .catch( next );
 }
 
+/**
+ *
+ *
+ * @param {*} request
+ * @param {*} response
+ * @param {*} next
+ */
 function handleDelete(request,response,next) {
   request.model.delete(request.params.id)
     .then( result => response.status(200).json(result) )
