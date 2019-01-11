@@ -3,6 +3,11 @@
 const rootDir = process.cwd();
 const category = require(`${rootDir}/src/models/categories.js`);
 
+const supergoose = require('../supergoose.js');
+
+beforeAll(supergoose.startDB);
+afterAll(supergoose.stopDB);
+
 describe('Categories Model', () => {
   it('can post() a new category', () => {
     let obj = {name:'test', description:'a test!'};

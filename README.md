@@ -13,8 +13,8 @@
 * [heroku](https://api-server-bl.herokuapp.com/)
 
 #### Documentation
-* [swagger](http://xyz.com) (API assignments only)
-* [jsdoc](http://xyz.com) (All assignments)
+* [swagger](https://app.swaggerhub.com/apis/beccalee123/productscategories/1.0.0#/default) - got stuck on an error here
+* [jsdoc](http://xyz.com) - not yet completed
 
 ### Modules
 - `src/models/categories.js` contains the category class
@@ -61,6 +61,6 @@
   
 #### Tests
 * How do you run tests?
+Tests are run using jest and travis
 * What assertions were made?
-* What assertions need to be / should be made?
-
+Each data model has been tested to ensure correct functionality. There server and routes have also been tested
